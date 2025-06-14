@@ -777,6 +777,9 @@ a {
 .footer__copyright-text {
     padding: 28px 0 42px;
     color: #AAB3BA;
+    text-align: center;
     font-size: 1.4rem;
     line-height: 1.86;
 }
+
+/* Tập dùng Bem */

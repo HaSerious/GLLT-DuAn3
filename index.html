@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
@@ -42,7 +44,7 @@
       <div class="container">
         <div class="header-top">
           <!-- logo -->
-          <a href="#!"><img src="./assets/img/logo.svg" alt="Shine Smile" class="logo" /></a>
+          <a href="#!"><img src="./assets/img/logo.svg" alt="Shine Smile" class="logo header__logo" /></a>
           <!-- nav -->
           <nav class="navbar">
             <ul class="navbar__list">
@@ -99,7 +101,22 @@
         </section>
       </div>
     </header>
+    <!-- Tablet/mobile header -->
+    <div class="mobile-header">
+    <!-- tablet/mobile menu -->
+     <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
+   <label for="menu-checkbox">
+      <svg class="menu-header__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path fill="currentColor"
+          d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+   </label>
 
+   <!-- overlay -->
+   <label for="menu-checkbox" class="menu-overlay"></label>
+
+   </div>
     <!-- main -->
     <main>
       <!-- our service -->
@@ -541,7 +558,7 @@
 
             <form class="footer-form" action="">
               <input type="email" class="footer-form__input" placeholder="Enter your email..." />
-              <button class="footer-form__submit">Subscribe</button>
+              <button type="button" class="footer-form__submit">Subscribe</button>
             </form>
           </div>
         </div>
