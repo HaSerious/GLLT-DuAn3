@@ -435,6 +435,13 @@ a {
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* mới thêm vào sau responsive */
+.team-item {
+    text-align: center;
+}
+
+/*  */
+
 .team-item__thumb {
     height: 290px;
     max-width: 100%;
